@@ -1,4 +1,22 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+  background-color: #f8f9fa;
+}
+
+.shot-card {
+  border: none;
+  transition: 0.2s;
+}
+
+.shot-card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
